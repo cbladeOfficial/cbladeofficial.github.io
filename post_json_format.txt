@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1111,
+    "title": "First Flight",
+    "date": "2025-08-15",
+    "description": "My first experience piloting a small aircraft.",
+    "file": "content/1111.md"
+  },
+  {
+    "id": 1112,
+    "title": "Night at the Hangar",
+    "date": "2025-10-05",
+    "description": "A quiet night, engines asleep, sky wide open.",
+    "file": "content/1112.md"
+  },
+  {
+    "id": 1113,
+    "title": "Timeless – Chapter 1",
+    "date": "2025-11-01",
+    "description": "The beginning of something extraordinary.",
+    "file": "content/1113.md"
+  }
+]
+
+THE ABOVE IS JUST AN EXAMPLE OF HOW THE SITE RETRIEVES THE POST
+The ID must be manually randomized, and every value must be added manually.

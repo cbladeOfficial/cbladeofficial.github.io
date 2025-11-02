@@ -1,0 +1,103 @@
+/* CSS IS THERE FOR EXTRA CONTROL OVER STYLING, HOWEVER WE PLAN TO USE AS MUCH LESS AMOUNT OF CSS AS POSSIBLE... */
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, arial, sans-serif;
+}
+
+html, body {
+    background-image: url('img/bg.jpg');
+}
+
+html .page-table {
+    width: 62.5%;
+    min-width: 62.5%;
+    max-width: 62.5%;
+    border: 1px solid black;
+    height: 100;
+}
+
+.header {
+    background-color: #040;
+}
+
+.menu {
+    padding: 0 !important;
+}
+
+.menu td {
+    width: 25%;
+    background-color: #020;
+}
+
+.menu td:hover {
+    background-color: #030;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a, .menu td:hover a {
+    text-decoration: none;
+}
+
+.menu td:hover a {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.paddingmenu {
+    padding: 7.5px;
+}
+
+.content-page td {
+    padding: 10px;
+    background-color: #efe;
+    color: black;
+}
+
+.content-page a {
+    color: #050;
+    text-decoration: underline dotted !important;
+}
+
+.content-page a:hover {
+    text-decoration: underline !important;
+}
+
+.checkerboard {
+    width: 100% !important;
+    border: none !important;
+}
+
+
+/* testing area here */
+
+
+
+.checkerboard td {
+  width: 100px;
+  /* height: 50px; */
+}
+
+/* Color pattern */
+.checkerboard tr:nth-child(odd) td:nth-child(odd),
+.checkerboard tr:nth-child(even) td:nth-child(even) {
+  background-color: #aaf4aa;
+}
+
+#blogList, #blogList dd {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#bullet {
+    user-select: none;
+}
+
+#postContent {
+    width: 100%;
+    height: 100%;
+}

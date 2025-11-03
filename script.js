@@ -1,4 +1,4 @@
-// I promise this is for retrieving the blog data only!
+// this is for retrieving the blog data and nothing else!
 
 function getBlogList() {
     fetch('posts.json')

@@ -30,12 +30,12 @@ function getBlogData() {
             const container = document.getElementById("post");
             if (!post) {
                 container.innerHTML = "<h1>Post not found</h1>";
-                document.title = "Not found";
+                document.title = "cbladeOfficial - Blog Post";
                 return;
             }
 
-            document.title = post.title;
-            fetch(post.file)
+            document.title = '"' + post.title + '" -- cbladeOfficial\'s Blog';
+            fetch("posts/" + id + ".md")
                 .then(r => r.text())
                 .then(md => {
                     const html = DOMPurify.sanitize(marked.parse(md));
